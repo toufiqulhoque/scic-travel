@@ -1,0 +1,10 @@
+.nav-text-style{
+        color: white;
+        font-size: 18px;
+}
+.nav-text-style:hover{
+    color: #DA9B29;
+}
+.nav-bar{
+    background-color: black;
+}

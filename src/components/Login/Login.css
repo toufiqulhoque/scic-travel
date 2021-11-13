@@ -1,0 +1,20 @@
+.login-btn{
+    background-color: #FFC107;
+    border: 1px solid #FFC107;
+    color: white;
+    padding: 10px 50px 10px 50px;
+    border-radius: 10px;
+    
+}
+
+@media only screen and (max-width: 425px){
+	/*Small smartphones [325px -> 425px]*/
+    .log-img{
+        display: none;
+    }
+    .margin{
+        padding-left: 50px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+}
