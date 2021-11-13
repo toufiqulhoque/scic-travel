@@ -4,7 +4,7 @@ import { useForm } from 'react-hook-form';
 const AddCars = () => {
     const { register, handleSubmit, formState: { errors, } } = useForm();
     const onSubmit = (inputData, e) => {
-        fetch('http://localhost:5000/services', {
+        fetch('https://limitless-peak-03324.herokuapp.com/services', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'

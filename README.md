@@ -1,3 +1,20 @@
+# Lamborghini Wheels
+
+This is a Car related Web app. Now You can know more about Cars.
+
+## Website links
+Click Site :[Live Site](https://lamborghini-wheels.web.app/)
+![Click here](blob:https://imgur.com/c5a05d8b-de86-426f-9034-a0f0da3fadbc)
+
+## functionalities
+
+* Super interactive and easy to use website
+* You can get Car service more easier 
+* User friendly  
+* We have Login/Registration system for our Registered customer.
+* You will also get dashboard for user and admin separately
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

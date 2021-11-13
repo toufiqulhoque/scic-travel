@@ -13,7 +13,7 @@ const MakeAdmin = () => {
     const handleAdminSubmit = e => {
         const user = { email }
         if (admin === true) {
-            fetch('http://localhost:5000/users/admin', {
+            fetch('https://limitless-peak-03324.herokuapp.com/users/admin', {
                 method: 'PUT',
                 headers: {
 
@@ -44,9 +44,9 @@ const MakeAdmin = () => {
         <div className='my-5'>
             <Form onSubmit={handleAdminSubmit} className='mx-auto admin-dash'>
                 <Form.Group className="mb-3" controlId="formBasicEmail">
-                    <Form.Label>Make Admin</Form.Label>
+                    <Form.Label className="text-white">Make Admin</Form.Label>
                     <Form.Control type="email" placeholder="Enter email" onBlur={handleOnBlur} />
-                    <Form.Text className="text-muted">
+                    <Form.Text className="text-white">
                         We'll never share your email with anyone else.
                     </Form.Text>
                 </Form.Group>

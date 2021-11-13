@@ -11,7 +11,7 @@ const RatingCars = () => {
     const [orders, setOrders] = useState([])
     const { user } = useAuth()
     useEffect(() => {
-        fetch('http://localhost:5000/addOrders')
+        fetch('https://limitless-peak-03324.herokuapp.com/addOrders')
             .then(res => res.json())
             .then(data => {
                 setOrders(data)

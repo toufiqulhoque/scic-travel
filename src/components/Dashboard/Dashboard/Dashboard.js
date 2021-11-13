@@ -10,6 +10,7 @@ import ManageAllCars from '../ManageAllCars/ManageAllCars';
 import Payment from '../Payment/Payment';
 import AddCars from './AddCars/AddCars';
 import MyOrder from '../../MyOrder/MyOrder';
+import './Dashboard.css'
 
 
 
@@ -24,7 +25,7 @@ const Dashboard = () => {
         if (admin === true) {
             return <div>
                 <NavLink
-                    className='navitem text-decoration-none'
+                    className='navitem text-decoration-none text-white mb-2'
                     exact to="/makeadmin"
                     activeStyle={{
                         fontWeight: "bold",
@@ -36,7 +37,7 @@ const Dashboard = () => {
                 <br />
 
                 <NavLink
-                    className='navitem text-decoration-none'
+                    className='navitem text-decoration-none text-white mb-2'
                     exact to="/manageAllOrder"
                     activeStyle={{
                         fontWeight: "bold",
@@ -47,7 +48,7 @@ const Dashboard = () => {
                 </NavLink>
                 <br />
                 <NavLink
-                    className='navitem text-decoration-none'
+                    className='navitem text-decoration-none text-white mb-2 '
                     exact to="/addCars"
                     activeStyle={{
                         fontWeight: "bold",
@@ -58,7 +59,7 @@ const Dashboard = () => {
                 </NavLink>
                 <br />
                 <NavLink
-                    className='navitem text-decoration-none'
+                    className='navitem text-decoration-none text-white mb-2'
                     exact to="/manageAllCars"
                     activeStyle={{
                         fontWeight: "bold",
@@ -73,7 +74,7 @@ const Dashboard = () => {
         else {
             return <div>
                 <NavLink
-                    className='navitem text-decoration-none'
+                    className='navitem text-decoration-none text-white mb-2'
                     exact to="/payment"
                     activeStyle={{
                         fontWeight: "bold",
@@ -84,7 +85,7 @@ const Dashboard = () => {
                 </NavLink>
                 <br />
                 <NavLink
-                    className='navitem text-decoration-none'
+                    className='navitem text-decoration-none text-white '
                     exact to="/myOrder"
                     activeStyle={{
                         fontWeight: "bold",
@@ -105,9 +106,9 @@ const Dashboard = () => {
 
     }
     return (
-        <div className='bg-dark'>
-            <div className="container mt-4">
-                <p>Dashboard</p>
+        <div className='bg-dash'>
+            <div className="container">
+                <h2 className="text-white">Dashboard</h2>
                 <Row>
                     <Router>
                         <Col sm={4} >

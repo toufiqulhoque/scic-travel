@@ -13,7 +13,7 @@ const MyOrder = () => {
     const [selectedId, setSelectedId] = useState();
     const { register, handleSubmit, formState: { errors } } = useForm();
     useEffect(() => {
-        fetch('http://localhost:5000/addOrders')
+        fetch('https://limitless-peak-03324.herokuapp.com/addOrders')
             .then(res => res.json())
             .then(data => setOrders(data));
 
@@ -26,7 +26,7 @@ const MyOrder = () => {
     const handleDeleteUser = id => {
         const proceed = window.confirm('Are you sure you want to delete')
         if (proceed) {
-            const url = `http://localhost:5000/addOrders/${id}`
+            const url = `https://limitless-peak-03324.herokuapp.com/addOrders/${id}`
             fetch(url, {
                 method: 'DELETE'
             })
@@ -51,7 +51,7 @@ const MyOrder = () => {
         const proceed = window.confirm('Are you sure you want to update')
         if (proceed) {
             const givenRating = { rating, selectedId }
-            const url = `http://localhost:5000/addOrders`
+            const url = `https://limitless-peak-03324.herokuapp.com/addOrders`
             fetch(url, {
                 method: 'PUT',
                 headers: {
