@@ -32,9 +32,7 @@ const Header = () => {
                     All Cars
                 </NavLink>
                 <span><DropdownButton variant='outline-warning' id="dropdown-basic-button" title={user.displayName}>
-                    <Dropdown.Item><Link className='text-decoration-none text-black' to='/manageAllOrder'>Manage All Order</Link></Dropdown.Item>
-                    <Dropdown.Item><Link className='text-decoration-none text-black' to='/myOrder'>My Order</Link></Dropdown.Item>
-                    <Dropdown.Item><Link className='text-decoration-none text-black' to='/makeAdmin'>Make Admin</Link></Dropdown.Item>
+
                     <Dropdown.Item><Link className='text-decoration-none text-black' to='/dashboard'>Dashboard</Link></Dropdown.Item>
                     <Dropdown.Item href="#/action-2"><Button variant='outline-warning' onClick={logout}>Logout</Button></Dropdown.Item>
 
