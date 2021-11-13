@@ -22,6 +22,7 @@ import MakeAdmin from './components/Dashboard/MakeAdmin/MakeAdmin';
 import Dashboard from './components/Dashboard/Dashboard/Dashboard';
 import AddCars from './components/Dashboard/Dashboard/AddCars/AddCars';
 import PrivateRoute from './components/PrivateRoute/PrivateRoute';
+import ManageAllCars from './components/Dashboard/ManageAllCars/ManageAllCars';
 
 
 
@@ -48,6 +49,9 @@ function App() {
             </PrivateRoute>
             <PrivateRoute exact path='/manageAllOrder'>
               <ManageAllOrder></ManageAllOrder>
+            </PrivateRoute>
+            <PrivateRoute exact path='/manageAllCars'>
+              <ManageAllCars></ManageAllCars>
             </PrivateRoute>
             <PrivateRoute exact path='/myOrder'>
               <MyOrder></MyOrder>
