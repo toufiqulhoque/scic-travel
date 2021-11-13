@@ -11,6 +11,7 @@ import Payment from '../Payment/Payment';
 import AddCars from './AddCars/AddCars';
 import MyOrder from '../../MyOrder/MyOrder';
 import './Dashboard.css'
+import PrivateRoute from '../../PrivateRoute/PrivateRoute';
 
 
 
@@ -125,25 +126,25 @@ const Dashboard = () => {
                                     <MakeAdmin></MakeAdmin>
                                 </Route>
 
-                                <Route exact path='/makeadmin'>
+                                <PrivateRoute exact path='/makeadmin'>
                                     <MakeAdmin></MakeAdmin>
-                                </Route>
+                                </PrivateRoute>
 
-                                <Route exact path='/manageAllOrder'>
+                                <PrivateRoute exact path='/manageAllOrder'>
                                     <ManageAllOrder></ManageAllOrder>
-                                </Route>
-                                <Route exact path='/addCars'>
+                                </PrivateRoute>
+                                <PrivateRoute exact path='/addCars'>
                                     <AddCars></AddCars>
-                                </Route>
-                                <Route exact path='/manageAllCars'>
+                                </PrivateRoute>
+                                <PrivateRoute exact path='/manageAllCars'>
                                     <ManageAllCars></ManageAllCars>
-                                </Route>
-                                <Route exact path='/myOrder'>
+                                </PrivateRoute>
+                                <PrivateRoute exact path='/myOrder'>
                                     <MyOrder></MyOrder>
-                                </Route>
-                                <Route exact path='/payment'>
+                                </PrivateRoute>
+                                <PrivateRoute exact path='/payment'>
                                     <Payment></Payment>
-                                </Route>
+                                </PrivateRoute>
 
                             </Switch>
                         </Col>

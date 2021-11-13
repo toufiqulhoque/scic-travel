@@ -20,7 +20,8 @@ import ManageAllOrder from './components/ManageAllOrder/ManageAllOrder';
 import MyOrder from './components/MyOrder/MyOrder';
 import MakeAdmin from './components/Dashboard/MakeAdmin/MakeAdmin';
 import Dashboard from './components/Dashboard/Dashboard/Dashboard';
-
+import AddCars from './components/Dashboard/Dashboard/AddCars/AddCars';
+import PrivateRoute from './components/PrivateRoute/PrivateRoute';
 
 
 
@@ -38,30 +39,33 @@ function App() {
             <Route exact path='/home'>
               <Home></Home>
             </Route>
-            <Route exact path='/allcars'>
+            <PrivateRoute exact path='/allcars'>
               <AllCars></AllCars>
-            </Route>
-            <Route exact path='/services/:id'>
+            </PrivateRoute>
+            <PrivateRoute exact path='/services/:id'>
               <Order></Order>
-            </Route>
-            <Route exact path='/manageAllOrder'>
+            </PrivateRoute>
+            <PrivateRoute exact path='/manageAllOrder'>
               <ManageAllOrder></ManageAllOrder>
-            </Route>
-            <Route exact path='/myOrder'>
+            </PrivateRoute>
+            <PrivateRoute exact path='/myOrder'>
               <MyOrder></MyOrder>
-            </Route>
+            </PrivateRoute>
             <Route exact path='/register'>
               <Register></Register>
             </Route>
             <Route exact path='/login'>
               <Login></Login>
             </Route>
-            <Route exact path='/dashboard'>
+            <PrivateRoute exact path='/dashboard'>
               <Dashboard></Dashboard>
-            </Route>
-            <Route exact path='/makeAdmin'>
+            </PrivateRoute>
+            <PrivateRoute exact path='/addCars'>
+              <AddCars></AddCars>
+            </PrivateRoute>
+            <PrivateRoute exact path='/makeAdmin'>
               <MakeAdmin></MakeAdmin>
-            </Route>
+            </PrivateRoute>
             <Route exact path='*'>
               <NotFound></NotFound>
             </Route>
