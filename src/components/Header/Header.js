@@ -8,6 +8,7 @@ import './Header.css'
 
 const Header = () => {
     const { user, logout, admin } = useAuth()
+
     const isAdmin = () => {
         if (admin === true) {
             return <div>
@@ -31,7 +32,8 @@ const Header = () => {
                 >
                     All Cars
                 </NavLink>
-                <span><DropdownButton variant='outline-warning' id="dropdown-basic-button" title={user.displayName}>
+
+                <span><DropdownButton variant='outline-warning' id="dropdown-basic-button">
 
                     <Dropdown.Item><Link className='text-decoration-none text-black' to='/dashboard'>Dashboard</Link></Dropdown.Item>
                     <Dropdown.Item href="#/action-2"><Button variant='outline-warning' onClick={logout}>Logout</Button></Dropdown.Item>
@@ -54,7 +56,7 @@ const Header = () => {
                     Home
                 </NavLink>
                 <NavLink
-                    className='nav-text-style text-decoration-none ms-4'
+                    className='nav-text-style text-decoration-none ms-4 me-2'
                     to="/allcars"
                     activeStyle={{
                         fontWeight: "bold",
@@ -63,7 +65,7 @@ const Header = () => {
                 >
                     All Cars
                 </NavLink>
-                <Link className='text-decoration-none me-3 ' to='/dashboard'><Button variant=' btn-outline-warning ms-2'>Dashboard</Button></Link>
+                {user?.email && <Link className='text-decoration-none me-3 ' to='/dashboard'><Button variant=' btn-outline-warning ms-2'>{user.displayName} Dashboard</Button></Link>}
                 {user?.email ? <Button variant='outline-warning' onClick={logout}>Logout</Button> :
                     <Link to='/login'><Button variant='outline-warning'>Login</Button></Link>}
             </div>

@@ -1,4 +1,4 @@
-# Lamborghini Wheels
+# Lambo-Wheels
 
 This is a Car related Web app. Now You can know more about Cars.
 
@@ -7,11 +7,10 @@ Click Site :[Live Site](https://lamborghini-wheels.web.app/)
 ![Click here](blob:https://imgur.com/c5a05d8b-de86-426f-9034-a0f0da3fadbc)
 
 ## functionalities
-
+* Car website including admin panel and add or remove service.
 * Super interactive and easy to use website
-* You can get Car service more easier 
-* User friendly  
-* We have Login/Registration system for our Registered customer.
+* Place an order and submit a review on the home page. 
+* Firebase login and register system along with MongoDB.
 * You will also get dashboard for user and admin separately
 
 
