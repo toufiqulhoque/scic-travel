@@ -4,7 +4,7 @@ This is a Car related Web app. Now You can know more about Cars.
 
 ## Website links
 Click Site :[Live Site](https://lamborghini-wheels.web.app/)
-![Click here](blob:https://imgur.com/c5a05d8b-de86-426f-9034-a0f0da3fadbc)
+![Click here](https://i.imgur.com/vfe9mnM.png)
 
 ## functionalities
 * Car website including admin panel and add or remove service.
