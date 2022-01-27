@@ -1,5 +1,5 @@
 .card-border{
-    flex-direction: row;
+   
     border: 1px solid rgba(255, 255, 255, 0.575);
     box-shadow: 0 2px 2px 0 rgba(0,0,0,.2);
     border-radius: 3%;
@@ -26,8 +26,17 @@
 .card-text{
     margin: 0;
 }
-.description{
-    display: flex;
-    
-    text-align: start;
+
+.pagination{
+    margin: 30px;
 }
+.pagination button{
+    padding: 0,10;
+    margin-right: 20px;
+}
+.pagination .selected{
+    background-color:#FFC107 ;
+    color: white;
+}
+
+

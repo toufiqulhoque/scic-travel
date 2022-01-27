@@ -1,8 +1,5 @@
 import React from 'react';
 import { Col, Row } from 'react-bootstrap';
-import RatingCars from '../../Rating/RatingCars';
-
-
 import Banner from '../Banner/Banner';
 import HomeExtra from '../HomeExtra/HomeExtra';
 import Service from '../Service/Service';
@@ -13,12 +10,12 @@ const Home = () => {
     return (
         <div>
             <Banner></Banner>
-            <Row className=''>
-                <Col className='col-md-9 design'><Service></Service></Col>
-                <Col className='col-md-3 design'><Sidebar></Sidebar></Col>
+            <Row className='bg-dark'>
+                <Col className='col-md-9 col-sm-12  '><Service></Service></Col>
+                <Col className='col-md-3 col-sm-12 '><Sidebar></Sidebar></Col>
 
             </Row>
-            <RatingCars></RatingCars>
+
 
 
         </div>

@@ -7,7 +7,7 @@ const AddExperience = () => {
 
     const { register, handleSubmit, formState: { errors, } } = useForm();
     const onSubmit = (inputData, e) => {
-        fetch('http://localhost:5000/services', {
+        fetch('https://safe-citadel-14001.herokuapp.com/services', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'

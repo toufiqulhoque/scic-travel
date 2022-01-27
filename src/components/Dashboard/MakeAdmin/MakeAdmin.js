@@ -13,7 +13,7 @@ const MakeAdmin = () => {
     const handleAdminSubmit = e => {
         const user = { email }
         if (admin === true) {
-            fetch('http://localhost:5000/users/admin', {
+            fetch('https://safe-citadel-14001.herokuapp.com/users/admin', {
                 method: 'PUT',
                 headers: {
 
