@@ -1,17 +1,17 @@
-# Lambo-Wheels
+# Scic-travel
 
-This is a Car related Web app. Now You can know more about Cars.
+This is a Blog related Web app. Now You can know more. 
 
 ## Website links
-Click Site :[Live Site](https://lamborghini-wheels.web.app/)
-![Click here](https://i.imgur.com/vfe9mnM.png)
+Click Site :[Live Site](https://scic-travel.web.app/)
+![Click here](https://i.imgur.com/fiMPqyL.jpg)
 
 ## functionalities
-* Car website including admin panel and add or remove service.
-* Super interactive and easy to use website
-* Place an order and submit a review on the home page. 
+* Blog website including admin panel and add or remove blogs.
+* Super interactive and easy to use website 
 * Firebase login and register system along with MongoDB.
 * You will also get dashboard for user and admin separately
+* Added pagination for better user experience
 
 
 # Getting Started with Create React App
