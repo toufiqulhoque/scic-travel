@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Button, Card, Col, Form, Row } from 'react-bootstrap';
+import { Button, Card, Col, Container, Form, Row } from 'react-bootstrap';
 import { useForm } from 'react-hook-form';
 import { useParams } from 'react-router';
 import useAuth from '../../../hooks/useAuth';
@@ -12,7 +12,7 @@ const Order = () => {
 
     const [order, setOrder] = useState({});
     useEffect(() => {
-        fetch(`https://limitless-peak-03324.herokuapp.com/services/${id}`)
+        fetch(`http://localhost:5000/services/${id}`)
             .then(res => res.json())
             .then(data => setOrder(data))
 
@@ -24,7 +24,7 @@ const Order = () => {
         const status = 'pending'
         const orderData = { data, email, order, status };
         console.log(orderData)
-        fetch(`https://limitless-peak-03324.herokuapp.com/addOrders`, {
+        fetch(`http://localhost:5000/addOrders`, {
             method: "POST",
             headers: { "content-type": "application/json" },
             body: JSON.stringify(orderData),
@@ -62,7 +62,7 @@ const Order = () => {
     //         });
 
     return (
-        <div >
+        <Container className='my-5' >
             <div >
 
                 <div >
@@ -70,11 +70,12 @@ const Order = () => {
                         <Col xs={12} md={6}>
                             <img className='img-fluid' src={order.image} alt="" />
                         </Col>
-                        <Col xs={12} md={6} className='my-auto'>
-                            <h4>{order.name}</h4>
-                            <h5>{order.bodytype}</h5>
+                        <Col xs={12} md={6} className='my-auto text-start'>
+                            <h4>{order.travelerName}</h4>
+                            <h4>{order.travelLocation}</h4>
+                            <h5>{order.travelCategory}</h5>
                             <p>{order.description}</p>
-                            <form onSubmit={handleSubmit(onSubmit)}>
+                            {/* <form onSubmit={handleSubmit(onSubmit)}>
                                 <div className="form-label-group">
                                     <input type="text" defaultValue={user.email} className="text-center form-control p-2" placeholder="Email" {...register("email", { required: true, pattern: /^\S+@\S+$/i })} />
                                 </div>
@@ -99,7 +100,7 @@ const Order = () => {
 
 
 
-                            </form>
+                            </form> */}
 
                             {/* <button
                                 onClick={() => handleAddToCart(order, user.email)}
@@ -108,7 +109,7 @@ const Order = () => {
                                 buy now
                             </button> */}
                         </Col>
-                        <Card.Body className='d-md-flex justify-content-center w-md-50'>
+                        {/* <Card.Body className='d-md-flex justify-content-center w-md-50'>
                             <div className="containerTwo">
                                 <div className="boxTwo">
                                     <img src={order.fimage} />
@@ -119,12 +120,12 @@ const Order = () => {
 
 
                             </div>
-                        </Card.Body>
+                        </Card.Body> */}
                     </Row>
                 </div>
 
             </div>
-        </div>
+        </Container>
     );
 };
 

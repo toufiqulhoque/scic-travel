@@ -13,7 +13,7 @@ const Register = () => {
     const { registerUser, user, isLoading, authError } = useAuth()
     const { register, handleSubmit, formState: { errors } } = useForm();
     const onSubmit = (data, e) => {
-        if (data.Password != data.Retype_Password) {
+        if (data.Password !== data.Retype_Password) {
 
 
             alert('Your password didnt match')
@@ -31,8 +31,8 @@ const Register = () => {
                 <Col className='m-auto margin'> {!isLoading && <form onSubmit={handleSubmit(onSubmit)}>
                     <input className='py-2 px-5' type="name" placeholder="Name" {...register("Name", { required: true, maxLength: 80 })} /> <br /><br />
                     <input className='py-2 px-5' type="email" placeholder="Email" {...register("Email", { required: true, pattern: /^\S+@\S+$/i })} /> <br /><br />
-                    <input className='py-2 px-5' type="password" type='password' placeholder="Password" {...register("Password", { required: true, maxLength: 6 })} /> <br /><br />
-                    <input className='py-2 px-5' type="password" type='password' placeholder="Retype_Password" {...register("Retype_Password", { required: true, maxLength: 6 })} /> <br /><br />
+                    <input className='py-2 px-5' type="password" type='password' placeholder="Password" {...register("Password", { required: true })} /> <br /><br />
+                    <input className='py-2 px-5' type="password" type='password' placeholder="Retype_Password" {...register("Retype_Password", { required: true })} /> <br /><br />
 
                     <input className='register-btn' type="submit" />
                     <br />

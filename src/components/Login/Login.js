@@ -23,7 +23,7 @@ const Login = () => {
         <Row >
             <Col className='m-auto margin'><form onSubmit={handleSubmit(onSubmit)}>
                 <input className='py-2 px-5' type="email" placeholder="Email" {...register("Email", { required: true, pattern: /^\S+@\S+$/i })} /> <br /><br />
-                <input className='py-2 px-5' type="password" type='password' placeholder="Password" {...register("Password", { required: true, maxLength: 6 })} /> <br /><br />
+                <input className='py-2 px-5' type="password" type='password' placeholder="Password" {...register("Password", { required: true })} /> <br /><br />
 
                 <input className='login-btn' type="submit" />
                 <br />

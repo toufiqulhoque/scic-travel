@@ -24,13 +24,13 @@ const Header = () => {
                 </NavLink>
                 <NavLink
                     className='nav-text-style text-decoration-none ms-4'
-                    to="/allcars"
+                    to="/allspots"
                     activeStyle={{
                         fontWeight: "bold",
                         color: "#DA9B29"
                     }}
                 >
-                    All Cars
+                    All Spots
                 </NavLink>
 
                 <span><DropdownButton variant='outline-warning' id="dropdown-basic-button">
@@ -57,13 +57,13 @@ const Header = () => {
                 </NavLink>
                 <NavLink
                     className='nav-text-style text-decoration-none ms-4 me-2'
-                    to="/allcars"
+                    to="/allspots"
                     activeStyle={{
                         fontWeight: "bold",
                         color: "#DA9B29"
                     }}
                 >
-                    All Cars
+                    All Spots
                 </NavLink>
                 {user?.email && <Link className='text-decoration-none me-3 ' to='/dashboard'><Button variant=' btn-outline-warning ms-2'>{user.displayName} Dashboard</Button></Link>}
                 {user?.email ? <Button variant='outline-warning' onClick={logout}>Logout</Button> :
@@ -81,10 +81,11 @@ const Header = () => {
                             <img
 
                                 alt=""
-                                src="https://listcarbrands.com/wp-content/uploads/2016/03/logo-Lamborghini.png"
-                                width="200"
+                                src="https://i.pinimg.com/originals/8f/73/72/8f737206f5aeadf11abe1cfbd78d6b8e.png"
+                                height="100"
+                                width='100'
 
-                                className="d-inline-block "
+                                className="d-inline-block"
                             />
                         </NavLink>
 
@@ -99,16 +100,7 @@ const Header = () => {
                         >
                             {isAdmin()}
 
-                            {/* <NavLink
-                                className='nav-text-style text-decoration-none'
-                                to="/manageAllOrder"
-                                activeStyle={{
-                                    fontWeight: "bold",
-                                    color: "#F7B614"
-                                }}
-                            >
-                                Manage All Order
-                            </NavLink> */}
+
 
                             <span className='mx-3'>
 

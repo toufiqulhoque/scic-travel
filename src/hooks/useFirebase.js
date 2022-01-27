@@ -88,7 +88,7 @@ const useFirebase = () => {
     }
     //isAdmin
     useEffect(() => {
-        fetch(`https://limitless-peak-03324.herokuapp.com/users/${user.email}`)
+        fetch(`http://localhost:5000/users/${user.email}`)
             .then(res => res.json())
             .then(data => {
                 setAdmin(data.admin)
@@ -101,7 +101,7 @@ const useFirebase = () => {
     //taking data from register and put in DATABASE
     const saveUser = (email, displayName, method) => {
         const user = { email, displayName }
-        fetch('https://limitless-peak-03324.herokuapp.com/users', {
+        fetch('http://localhost:5000/users', {
             method: method,
             headers: {
                 'content-type': 'application/json'

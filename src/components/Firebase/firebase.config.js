@@ -1,10 +1,10 @@
 const firebaseConfig = {
-    apiKey: "AIzaSyDVuveoSRUYfSQZ9HdEhP5MHoxqkWShVLI",
-    authDomain: "lamborghini-wheels.firebaseapp.com",
-    projectId: "lamborghini-wheels",
-    storageBucket: "lamborghini-wheels.appspot.com",
-    messagingSenderId: "14855680502",
-    appId: "1:14855680502:web:564cff496d56b491c297d7"
+    apiKey: "AIzaSyDILuSE-vW6CpIxlQrDC8KqgHcRPPQGGMI",
+    authDomain: "scic-travel.firebaseapp.com",
+    projectId: "scic-travel",
+    storageBucket: "scic-travel.appspot.com",
+    messagingSenderId: "532738857174",
+    appId: "1:532738857174:web:ca1898df4290a52eacd177"
 };
 
 export default firebaseConfig

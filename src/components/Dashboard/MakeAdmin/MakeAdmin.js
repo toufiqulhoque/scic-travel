@@ -13,7 +13,7 @@ const MakeAdmin = () => {
     const handleAdminSubmit = e => {
         const user = { email }
         if (admin === true) {
-            fetch('https://limitless-peak-03324.herokuapp.com/users/admin', {
+            fetch('http://localhost:5000/users/admin', {
                 method: 'PUT',
                 headers: {
 
