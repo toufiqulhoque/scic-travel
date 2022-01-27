@@ -11,7 +11,7 @@ Click Site :[Live Site](https://scic-travel.web.app/)
 * Super interactive and easy to use website 
 * Firebase login and register system along with MongoDB.
 * You will also get dashboard for user and admin separately
-* Added pagination for better user experience
+* Added pagination for better user
 
 
 # Getting Started with Create React App
