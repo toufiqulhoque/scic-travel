@@ -8,7 +8,8 @@
         "description": "New Zealand's South Island brims with majestic landscapes at every turn, from dramatic mountains to fjords to glaciers. Here, you can admire the mountains of Fiordland National Park, a UNESCO World Heritage Site, from hiking trails or a boat on Milford Sound. At night, journey to the University of Canterbury's Mount John Observatory to gaze at the starry skies. You can also indulge your inner daredevil in Queenstown, explore two of the most accessible glaciers in the world on the island's west coast or sample delicious food and wine in the Marlborough region.",
         "travelCategory": "The Weekend Break",
         "cost": "$4.62",
-        "address": "South Island, New Zealand"
+        "address": "South Island, New Zealand",
+        "status": "pending"
     },
     {
         "id": 2,
@@ -19,7 +20,8 @@
         "description": "The magnetic City of Light draws visitors from around the globe who come to see iconic attractions like the Eiffel Tower, the Louvre and the Arc de Triomphe. But what travelers really fall in love with are the city's quaint cafes, vibrant markets, trendy shopping districts and unmistakable je ne sais quoi charm. Get lost wandering along Paris' cobblestone streets, or grab a croissant and relax on the banks of the Seine for hours. If you're up for a quick daytrip, head about 15 miles southwest of the city center to another must-see attraction: the Palace of Versailles",
         "travelCategory": "The Package Holiday.",
         "cost": "$6.71",
-        "address": "Paris"
+        "address": "Paris",
+        "status": "pending"
     },
     {
         "id": 3,
@@ -30,7 +32,8 @@
         "description": "What this small French Polynesian island may lack in size it makes up for in sheer tropical beauty. Here, you'll find picturesque beaches, lush jungles and luxurious resorts. The island's dormant volcano, Mount Otemanu, makes for a great photo-op or challenging hike, and the friendly Bora Bora locals can help you catch a glimpse of the island's best sights during an off-road excursion. To relax, head to Matira Beach for crystal-clear water and soft sand. Although a trip to Bora Bora is very expensive, most travelers say it's worth every penny.",
         "travelCategory": "The Group Tour.",
         "cost": "$4.05",
-        "address": "Bora Bora"
+        "address": "Bora Bora",
+        "status": "pending"
     },
     {
         "id": 4,
@@ -41,7 +44,8 @@
         "description": "Whether you're driving along the Road to Hana, enjoying a bird's-eye view of the lush coastline from a helicopter, snorkeling with sea turtles or simply relaxing on the Hawaiian island's honey- or black-colored beaches, you'll find that Maui is unlike any other tropical destination. Don't miss a chance to visit Haleakala National Park, which is home to the world's largest dormant volcano. You should also attend a luau for a dose of local culture and a taste of Hawaiian specialties like poi, poke and mahimahi",
         "travelCategory": "Long Term Slow Travel.",
         "cost": "$4.57",
-        "address": "Maui"
+        "address": "Maui",
+        "status": "pending"
     },
     {
         "id": 5,
@@ -52,7 +56,8 @@
         "description": "Travel to this island – the largest in French Polynesia – if you've been dreaming of a vacation spent lazing in a lavish overwater bungalow. Beyond the posh resorts, Tahiti boasts black sand beaches, a bustling capital and prime snorkeling and surfing conditions. If you're looking for more cultural experiences, check out some of the island's ancient temples or shop at its traditional covered markets. To save money, opt to stay in a vacation rental",
         "travelCategory": "The Weekend Break",
         "cost": "$2.14",
-        "address": "Tahiti"
+        "address": "Tahiti",
+        "status": "pending"
     },
     {
         "id": 6,
@@ -63,7 +68,8 @@
         "description": "Dotted with luxurious boutique hotels, this Caribbean destination is tailor-made for lovebirds and adrenaline junkies. Those in search of relaxation will find it on the island's unspoiled shorelines (specifically Reduit Beach and Anse Chastanet). Meanwhile, adventure seekers can test their limits climbing the Pitons or zip lining through the Chassin region's rainforest. The dry season, December to April, is the most popular (and expensive) time to visit, but budget-conscious travelers can find superb weather and cheaper room rates if they arrive in May or June.",
         "travelCategory": "The Package Holiday.",
         "cost": "$5.85",
-        "address": "St. Lucia"
+        "address": "St. Lucia",
+        "status": "Activate"
     },
     {
         "id": 7,
@@ -74,7 +80,8 @@
         "description": "London is a world unto itself. The eclectic neighborhoods, which are home to a blend of historical landmarks and modern-day attractions, can keep you occupied for days. If it's your first time in London, plan to visit the Tower of London, Tate Modern, Buckingham Palace or the British Museum before sitting down to a classic afternoon tea. The best time to travel to London is during the warmer months, but be warned that this is also the busiest and most expensive time of year",
         "travelCategory": "The Group Tour.",
         "cost": "$7.66",
-        "address": "London"
+        "address": "London",
+        "status": "Activate"
     },
     {
         "id": 8,
@@ -85,7 +92,8 @@
         "description": "Located in southern Thailand, Phuket offers something for everyone, especially budget-minded travelers. Activities like spa treatments and boat tours come with low price tags, as do accommodations. For stunning scenery, check out the limestone cliffs of Phang Nga Bay and lounge on Phuket's gorgeous white sand beaches (Freedom Beach and Bangtao Beach are two visitor favorites). Other must-sees include Wat Chalong Temple and the Big Buddha. Once the sun sets, take part in the island's lively nightlife scene",
         "travelCategory": "Long Term Slow Travel.",
         "cost": "$8.66",
-        "address": "Rome"
+        "address": "Rome",
+        "status": "Activate"
     },
     {
         "id": 9,
@@ -96,7 +104,8 @@
         "description": "Located in southern Thailand, Phuket offers something for everyone, especially budget-minded travelers. Activities like spa treatments and boat tours come with low price tags, as do accommodations. For stunning scenery, check out the limestone cliffs of Phang Nga Bay and lounge on Phuket's gorgeous white sand beaches (Freedom Beach and Bangtao Beach are two visitor favorites). Other must-sees include Wat Chalong Temple and the Big Buddha. Once the sun sets, take part in the island's lively nightlife scene.",
         "travelCategory": "Volunteer Travel.",
         "cost": "$8.93",
-        "address": "Phuket"
+        "address": "Phuket",
+        "status": "Activate"
     },
     {
         "id": 10,
@@ -107,7 +116,8 @@
         "description": "Dotted with luxurious boutique hotels, this Caribbean destination is tailor-made for lovebirds and adrenaline junkies. Those in search of relaxation will find it on the island's unspoiled shorelines (specifically Reduit Beach and Anse Chastanet). Meanwhile, adventure seekers can test their limits climbing the Pitons or zip lining through the Chassin region's rainforest. The dry season, December to April, is the most popular (and expensive) time to visit, but budget-conscious travelers can find superb weather and cheaper room rates if they arrive in May or June",
         "travelCategory": "The Weekend Break",
         "cost": "$2.47",
-        "address": "Tokyo"
+        "address": "Tokyo",
+        "status": "Activate"
     },
     {
         "id": 11,
@@ -118,7 +128,8 @@
         "description": "Snow-capped peaks and azure lakes are just two reasons why Glacier National Park is one of America's most striking parks. There are more than 700 miles of hiking trails in this Montana park, plus 13 designated areas for camping. In winter, travelers can enjoy snowshoeing and skiing, while summer is when vacationers can go swimming and whitewater rafting, among other popular activities. For those who'd rather admire their surroundings from their car, a scenic drive along Going-to-the-Sun Road can't be missed.",
         "travelCategory": "The Package Holiday.",
         "cost": "$6.51",
-        "address": "Glacier National Park"
+        "address": "Glacier National Park",
+        "status": "Activate"
     },
     {
         "id": 12,
@@ -129,7 +140,8 @@
         "description": "This Spanish city is a feast for the eyes: Visitors can walk past medieval architecture in the Barri Gòtic, snap photos of the intricate Basilica de la Sagrada Família and marvel at Antoni Gaudí's whimsical creations in Park Güell. La Barceloneta beach and the Parc de la Ciutadella are perfect places to pass the time on a sunny day before checking out the restaurants and bars along Las Ramblas, which buzzes at all hours of the night. For travelers who want to see Barcelona from above, trek up Mount Tibidabo or to the Bunkers del Carmel.",
         "travelCategory": "The Group Tour.",
         "cost": "$5.90",
-        "address": "Barcelona"
+        "address": "Barcelona",
+        "status": "Activate"
     },
     {
         "id": 13,
@@ -140,7 +152,8 @@
         "description": "It is not cheap or easy to reach, but this isolated paradise between the Arabian and Laccadive seas is the personification of a dreamy tropical vacation. In this South Asian destination, which is made up of more than 1,000 islands, thatched-roof bungalows sit above crystal-clear aquamarine waters, providing easy water access and a romantic atmosphere. Fill your days with beach trips, spa treatments and snorkeling or scuba diving excursions. If cabin fever sets in, pay a visit to the capital, Malé, where you'll find historic mosques and open-air markets",
         "travelCategory": "Long Term Slow Travel.",
         "cost": "$0.18",
-        "address": "Maldives"
+        "address": "Maldives",
+        "status": "pending"
     },
     {
         "id": 14,
@@ -151,7 +164,8 @@
         "description": "An Alberta town full of acclaimed restaurants, breweries, boutiques and art galleries, Banff makes for an exciting vacation in every season. Vacationers can spend their days hiking, relaxing in hot springs and boating on the lakes. Banff's location within the Canadian Rockies also makes it easy for visitors to access Banff National Park, which boasts some of the world's most beautiful vistas. Inside the park, travelers can admire sweeping views of the Bow Valley from the Banff Gondola or while schussing the slopes at the park's three ski resorts",
         "travelCategory": "Volunteer Travel.",
         "cost": "$3.02",
-        "address": "Banff"
+        "address": "Banff",
+        "status": "pending"
     },
     {
         "id": 15,
@@ -162,7 +176,8 @@
         "description": "New York City hosts infinite urban adventures: You can wander through Central Park, tour art exhibits at the Met, catch a Broadway show or peruse SoHo's stylish boutiques. At night, admire Manhattan's glittering skyscrapers from the top of the Empire State Building or the rooftop bar of a trendy boutique hotel. Foodies will also appreciate the Big Apple's endless restaurant options. If you want to sample a bit of everything, consider signing up for a food tour",
         "travelCategory": "The Weekend Break",
         "cost": "$5.55",
-        "address": "New York City"
+        "address": "New York City",
+        "status": "pending"
     },
     {
         "id": 16,
@@ -173,7 +188,8 @@
         "description": "Serene temples and beautiful beaches are the biggest draws to this lush Indonesian paradise. And we do mean lush – the region's notoriously soggy wet season is best avoided by planning a visit between April and October. Break up your beach time with a visit to the village of Kintamani, home to a towering (and active) volcano, as well as a large lake. If you're craving an adrenaline rush, rent a scooter and zip around the island, or hop on one of Bali's many swings to soar above rice terraces and jungles.",
         "travelCategory": "The Package Holiday.",
         "cost": "$7.08",
-        "address": "Bali"
+        "address": "Bali",
+        "status": "pending"
     },
     {
         "id": 17,
@@ -184,7 +200,8 @@
         "description": "Measuring roughly 277 miles long, 18 miles wide and a mile deep, the Grand Canyon offers plenty of outdoor activities for everyone from day-trippers to adventure junkies. Hike along the national park's popular Rim and Bright Angel trails for unparalleled vistas, cool off with a whitewater rafting excursion down the Colorado River or view the dramatic Arizona landscape from above during a helicopter tour. If you're feeling especially daring, sign up for a skydiving excursion above the canyon.",
         "travelCategory": "The Group Tour.",
         "cost": "$1.68",
-        "address": "Grand Canyon"
+        "address": "Grand Canyon",
+        "status": "pending"
     },
     {
         "id": 18,
@@ -195,7 +212,8 @@
         "description": "Sydney offers more than just a dizzying array of landmarks, such as the Sydney Opera House, Mrs. Macquarie's Chair and the Sydney Harbour Bridge. This Australian city boasts a warm, sunny climate that is ideal for relaxing or surfing at world-renowned beaches like Coogee, Bondi and Manly. Sydney also offers a long list of seasonal events, including concerts and food festivals. No visit would be complete without visiting museums like the Hyde Park Barracks Museum and the Australian Museum to get an overview of the city's history and culture",
         "travelCategory": "Long Term Slow Travel.",
         "cost": "$8.57",
-        "address": "Sydney"
+        "address": "Sydney",
+        "status": "pending"
     },
     {
         "id": 19,
@@ -206,7 +224,8 @@
         "description": "A visit to the Lost City of the Incas is not for the faint of heart, but it is often described as a life-changing experience (once you acclimate to the altitude). While the four-day hike along the Inca Trail is challenging, arriving at the Peruvian site during sunrise is well worth the effort, according to past travelers. If you're not up for the trek, you can also hop on a PeruRail train to the mountain base for an easier route to the top.",
         "travelCategory": "Volunteer Travel.",
         "cost": "$6.16",
-        "address": "Machu Picchu"
+        "address": "Machu Picchu",
+        "status": "pending"
     },
     {
         "id": 20,
@@ -217,6 +236,7 @@
         "description": "Stunning Persian Gulf views, heart-pumping activities and historical landmarks await you in Dubai. This Middle Eastern city is filled with some of the world's most notable and unique attractions, including the Burj Khalifa, the Dubai Mall and indoor Ski Dubai. But the city still holds onto its heritage, as seen in the Bastakiya Quarter and the traditional Gold and Spice souks. When you need a break from the hustle and bustle of the city, head to a sandy shore like Jumeirah Beach, Sunset Beach or Al Mamzar Beach Park.",
         "travelCategory": "The Weekend Break",
         "cost": "$5.92",
-        "address": "Dubai"
+        "address": "Dubai",
+        "status": "pending"
     }
 ]

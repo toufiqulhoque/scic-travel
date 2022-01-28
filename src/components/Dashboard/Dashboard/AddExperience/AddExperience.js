@@ -31,11 +31,6 @@ const AddExperience = () => {
             return <div><input className='p-3 ' value='pending' type="text" placeholder="" {...register("status", {})} /> <br /><br /></div>
         }
     }
-
-
-
-
-
     return (
         <div>
             <h2 className='text-white'>Add Experiences</h2>

@@ -12,7 +12,8 @@ const Order = () => {
 
     const [order, setOrder] = useState({});
     useEffect(() => {
-        fetch(`https://safe-citadel-14001.herokuapp.com/services/${id}`)
+        fetch(`https://safe-citadel-14001.herokuapp.com/
+services/${id}`)
             .then(res => res.json())
             .then(data => setOrder(data))
 
@@ -24,7 +25,8 @@ const Order = () => {
         const status = 'pending'
         const orderData = { data, email, order, status };
         console.log(orderData)
-        fetch(`https://safe-citadel-14001.herokuapp.com/addOrders`, {
+        fetch(`https://safe-citadel-14001.herokuapp.com/
+addOrders`, {
             method: "POST",
             headers: { "content-type": "application/json" },
             body: JSON.stringify(orderData),
@@ -46,7 +48,7 @@ const Order = () => {
     // const handleAddToCart = (item, email) => {
 
     //     const data = { item, email };
-    //     fetch(`http://localhost:5000/addOrders`, {
+    //     fetch(`https://safe-citadel-14001.herokuapp.com/addOrders`, {
     //         method: "POST",
     //         headers: { "content-type": "application/json" },
     //         body: JSON.stringify(data),
