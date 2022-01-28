@@ -102,27 +102,26 @@ users/${user.email}`)
     //taking data from register and put in DATABASE
     const saveUser = (email, displayName, method) => {
         const user = { email, displayName }
-        fetch('https://safe-citadel-14001.herokuapp.com/
-users', {
+        fetch('https://safe-citadel-14001.herokuapp.com/users', {
             method: method,
             headers: {
-            'content-type': 'application/json'
-        },
+                'content-type': 'application/json'
+            },
             body: JSON.stringify(user)
         })
             .then()
     }
 
-return {
-    user,
-    admin,
-    isLoading,
-    authError,
-    registerUser,
-    loginUser,
-    signInWithGoogle,
-    logout,
-}
+    return {
+        user,
+        admin,
+        isLoading,
+        authError,
+        registerUser,
+        loginUser,
+        signInWithGoogle,
+        logout,
+    }
 }
 
 export default useFirebase;
